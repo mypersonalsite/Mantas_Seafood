@@ -8,7 +8,7 @@
     body {
         margin: 0;
         font-family: Arial, sans-serif;
-        background: radial-gradient(circle, #003a66 0%, #001a33 100%);
+        background: radial-gradient(circle, #3ecbff 0%, #1da2d8 45%, #005c99 100%);
         color: white;
         text-align: center;
     }
@@ -32,21 +32,21 @@
         height: 2px;
         background-color: #ffffff;
         margin: 12px auto 25px auto;
-        opacity: 0.85;
+        opacity: 0.9;
     }
 
     /* Buttons */
     .menu-button {
         width: 85%;
-        background: #f2f8ff;
-        color: #001a33;
+        background: linear-gradient(to bottom, #f0fbff, #e8f7ff);
+        color: #003a66;
         padding: 18px;
         margin: 12px auto;
         border-radius: 14px;
-        border: 1px solid #bcd4e8;
+        border: 1px solid #8ed8ff;
         font-size: 20px;
         font-weight: bold;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
         transition: transform 0.12s ease;
     }
 
@@ -58,11 +58,11 @@
     details {
         width: 85%;
         margin: 12px auto;
-        background: #f2f8ff;
-        color: #001a33;
+        background: linear-gradient(to bottom, #f0fbff, #e8f7ff);
+        color: #003a66;
         border-radius: 14px;
-        border: 1px solid #bcd4e8;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        border: 1px solid #8ed8ff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
         padding: 10px 16px;
     }
 
@@ -77,7 +77,7 @@
         text-align: left;
         padding: 6px 0;
         font-size: 17px;
-        border-bottom: 1px solid #d0d0d0;
+        border-bottom: 1px solid #c8e8f7;
     }
 
     .item:last-child {
@@ -92,14 +92,14 @@
 
     .lang-btn {
         display: inline-block;
-        background: #f2f8ff;
-        color: #001a33;
+        background: linear-gradient(to bottom, #f0fbff, #e8f7ff);
+        color: #003a66;
         padding: 10px 18px;
         margin: 0 6px;
         border-radius: 14px;
-        border: 1px solid #bcd4e8;
+        border: 1px solid #8ed8ff;
         font-weight: bold;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.25);
         transition: transform 0.12s ease;
     }
 
